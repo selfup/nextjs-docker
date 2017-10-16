@@ -1,0 +1,10 @@
+# add git-ignore syntax here of things you don't want copied into docker image
+
+.git
+.eslintrc.js
+.results
+scripts
+*Dockerfile*
+*docker-compose*
+node_modules
+package-lock.json

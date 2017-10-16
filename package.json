@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-docker",
+  "version": "1.0.0",
+  "description": "Node - Next.js - Next - React - SSR - Docker",
+  "author": "Regis Boudinot (selfup)",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "immutable-start": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "next": "^4.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "nodemon": "^1.11.0"
+  }
+}
