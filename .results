@@ -7,37 +7,37 @@ Benchmarking localhost (be patient)
 
 Server Software:        
 Server Hostname:        localhost
-Server Port:            8080
+Server Port:            3000
 
 Document Path:          /
-Document Length:        12 bytes
+Document Length:        1538 bytes
 
 Concurrency Level:      50
-Time taken for tests:   3.829 seconds
-Complete requests:      4657
+Time taken for tests:   70.431 seconds
+Complete requests:      100000
 Failed requests:        0
-Keep-Alive requests:    4657
-Total transferred:      1005912 bytes
-HTML transferred:       55884 bytes
-Requests per second:    1216.10 [#/sec] (mean)
-Time per request:       41.115 [ms] (mean)
-Time per request:       0.822 [ms] (mean, across all concurrent requests)
-Transfer rate:          256.52 [Kbytes/sec] received
+Keep-Alive requests:    100000
+Total transferred:      173500000 bytes
+HTML transferred:       153800000 bytes
+Requests per second:    1419.84 [#/sec] (mean)
+Time per request:       35.215 [ms] (mean)
+Time per request:       0.704 [ms] (mean, across all concurrent requests)
+Transfer rate:          2405.68 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.1      0       2
-Processing:    20   41  13.0     39     198
-Waiting:       20   41  13.0     39     198
-Total:         20   41  13.0     39     199
+Connect:        0    0   0.0      0       2
+Processing:    16   35   7.5     34     210
+Waiting:       16   35   7.5     34     210
+Total:         16   35   7.5     34     211
 
 Percentage of the requests served within a certain time (ms)
-  50%     39
-  66%     42
-  75%     44
-  80%     45
-  90%     53
-  95%     59
-  98%     70
-  99%     75
- 100%    199 (longest request)
+  50%     34
+  66%     36
+  75%     38
+  80%     40
+  90%     44
+  95%     48
+  98%     53
+  99%     56
+ 100%    211 (longest request)
