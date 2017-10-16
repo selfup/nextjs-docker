@@ -8,7 +8,9 @@ module.exports = {
         'window': true,
     },
     'rules': {
-        'react/jsx-filename-extension': ['error', { 'extensions': ['.js', '.jsx'] }],
+        'react/jsx-filename-extension': [
+            'error', { 'extensions': ['.js', '.jsx'] },
+        ],
         'react/react-in-jsx-scope': 0,
     },
 };
