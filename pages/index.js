@@ -1,2 +1,2 @@
 export default () =>
-  <div>Welcome to next.js!</div>;
+  <div>Welcome to a comprehensive next.js docker boilerplate!</div>;
