@@ -1,1 +1,1 @@
-docker-compose -f docker-compose.windows.yml up --build
+docker-compose up --build
