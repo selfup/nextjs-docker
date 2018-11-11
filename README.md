@@ -1,20 +1,10 @@
 # NextJS and Docker
 
-Works on any machine with docker!
-
-Dev and Prod baked in.
-
 Enjoy!
 
 ### Dev
 
-MacOS/Linux
-
-`./scripts/dev.sh`
-
-Windows
-
-`./scripts/dev.bat`
+`npm i && npm run dev`
 
 ### Prod
 
@@ -27,3 +17,9 @@ MacOS/Linux
 Windows
 
 `./scripts/prod.bat`
+
+Now that your container is built, you can test it locally:
+
+`docker run -p 3000:3000 nextjs-docker`
+
+Now deploy :rocket:
