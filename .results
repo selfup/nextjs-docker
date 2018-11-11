@@ -1,4 +1,4 @@
-This is ApacheBench, Version 2.3 <$Revision: 1757674 $>
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
@@ -10,34 +10,34 @@ Server Hostname:        localhost
 Server Port:            3000
 
 Document Path:          /
-Document Length:        1538 bytes
+Document Length:        1553 bytes
 
 Concurrency Level:      50
-Time taken for tests:   70.431 seconds
+Time taken for tests:   27.549 seconds
 Complete requests:      100000
 Failed requests:        0
 Keep-Alive requests:    100000
-Total transferred:      173500000 bytes
-HTML transferred:       153800000 bytes
-Requests per second:    1419.84 [#/sec] (mean)
-Time per request:       35.215 [ms] (mean)
-Time per request:       0.704 [ms] (mean, across all concurrent requests)
-Transfer rate:          2405.68 [Kbytes/sec] received
+Total transferred:      176500000 bytes
+HTML transferred:       155300000 bytes
+Requests per second:    3629.90 [#/sec] (mean)
+Time per request:       13.774 [ms] (mean)
+Time per request:       0.275 [ms] (mean, across all concurrent requests)
+Transfer rate:          6256.62 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.0      0       2
-Processing:    16   35   7.5     34     210
-Waiting:       16   35   7.5     34     210
-Total:         16   35   7.5     34     211
+Connect:        0    0   0.1      0       5
+Processing:     7   14   4.1     13     182
+Waiting:        7   14   4.1     13     182
+Total:         10   14   4.2     13     185
 
 Percentage of the requests served within a certain time (ms)
-  50%     34
-  66%     36
-  75%     38
-  80%     40
-  90%     44
-  95%     48
-  98%     53
-  99%     56
- 100%    211 (longest request)
+  50%     13
+  66%     14
+  75%     15
+  80%     15
+  90%     17
+  95%     20
+  98%     24
+  99%     27
+ 100%    185 (longest request)
