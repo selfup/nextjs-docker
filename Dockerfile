@@ -9,6 +9,6 @@ EXPOSE 3000
 WORKDIR /opt/app
 COPY . /opt/app
 
-RUN npm install && npm run build
+RUN npm install --no-optional && npm run build
 
 CMD [ "npm", "start" ]
