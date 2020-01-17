@@ -17,6 +17,8 @@ COPY . /opt/app
 
 RUN npm run build
 
+RUN npx next telemetry disable
+
 RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nextjs -u 1001
 
