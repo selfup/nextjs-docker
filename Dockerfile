@@ -7,9 +7,15 @@ ENV PORT 3000
 EXPOSE 3000
 
 WORKDIR /opt/app
+
+COPY package.json /opt/app
+COPY package-lock.json /opt/app
+
+RUN npm install --no-optional
+
 COPY . /opt/app
 
-RUN npm install --no-optional && npm run build
+RUN npm run build
 
 RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nextjs -u 1001
