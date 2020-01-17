@@ -11,4 +11,9 @@ COPY . /opt/app
 
 RUN npm install --no-optional && npm run build
 
+RUN addgroup -g 1001 -S nodejs
+RUN adduser -S nextjs -u 1001
+
+USER nextjs
+
 CMD [ "npm", "start" ]
