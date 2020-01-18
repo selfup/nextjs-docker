@@ -2,6 +2,12 @@
 
 Enjoy!
 
+### Local
+
+#### Dev
+
+`npm i && npm run dev`
+
 ### Docker Compose
 
 `docker-compose up --build`
@@ -9,12 +15,6 @@ Enjoy!
 This will build and run your container locally :rocket:
 
 ### Traditional Docker Route
-
-#### Dev
-
-`npm i && npm run dev`
-
-#### Prod
 
 Build your containers for deploys:
 
