@@ -1,6 +1,6 @@
 # NextJS and Docker
 
-- Node stable: v13.12.0
+- Node stable: v14.0.0
 - npm version: v6.14.4
 - Docker version: 19.03.8, build afacb8b
 
