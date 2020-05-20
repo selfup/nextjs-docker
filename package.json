@@ -4,6 +4,7 @@
   "description": "Node - Next.js - Next - React - SSR - Docker",
   "author": "Regis Boudinot (selfup)",
   "scripts": {
+    "preinstall": "npx next telemetry disable",
     "dev": "next",
     "start": "next start",
     "build": "next build"
