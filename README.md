@@ -1,7 +1,7 @@
 # NextJS and Docker
 
-- Node stable: v14.0.0
-- npm version: v6.14.4
+- Node stable: v14.4.0
+- npm version: v6.14.5
 - Docker version: 19.03.8, build afacb8b
 
 A note about [alpine and node](https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine) which explains:
