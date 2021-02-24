@@ -13,7 +13,7 @@ WORKDIR /opt/app
 COPY package.json /opt/app
 COPY package-lock.json /opt/app
 
-RUN npm install --no-optional
+RUN npm install
 
 COPY . /opt/app
 
