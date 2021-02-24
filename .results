@@ -1,4 +1,4 @@
-This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
@@ -10,34 +10,34 @@ Server Hostname:        localhost
 Server Port:            3000
 
 Document Path:          /
-Document Length:        1852 bytes
+Document Length:        1848 bytes
 
 Concurrency Level:      50
-Time taken for tests:   16.494 seconds
+Time taken for tests:   20.121 seconds
 Complete requests:      100000
 Failed requests:        0
 Keep-Alive requests:    100000
-Total transferred:      210400000 bytes
-HTML transferred:       185200000 bytes
-Requests per second:    6062.63 [#/sec] (mean)
-Time per request:       8.247 [ms] (mean)
-Time per request:       0.165 [ms] (mean, across all concurrent requests)
-Transfer rate:          12456.82 [Kbytes/sec] received
+Total transferred:      210000000 bytes
+HTML transferred:       184800000 bytes
+Requests per second:    4970.02 [#/sec] (mean)
+Time per request:       10.060 [ms] (mean)
+Time per request:       0.201 [ms] (mean, across all concurrent requests)
+Transfer rate:          10192.43 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.0      0       3
-Processing:     4    8   0.9      8      20
-Waiting:        4    8   0.9      8      19
-Total:          4    8   0.9      8      21
+Connect:        0    0   0.1      0       3
+Processing:     6   10   1.6      9      22
+Waiting:        4   10   1.6      9      22
+Total:          6   10   1.6      9      23
 
 Percentage of the requests served within a certain time (ms)
-  50%      8
-  66%      8
-  75%      8
-  80%      9
-  90%     10
-  95%     10
-  98%     11
-  99%     11
- 100%     21 (longest request)
+  50%      9
+  66%     10
+  75%     11
+  80%     11
+  90%     12
+  95%     14
+  98%     15
+  99%     16
+ 100%     23 (longest request)
