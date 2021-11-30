@@ -1,4 +1,4 @@
-FROM node:16.2.0-alpine3.13
+FROM node:16.6.2-alpine3.14
 
 RUN apk add --no-cache libc6-compat
 
@@ -22,6 +22,7 @@ RUN chown -R nextjs:nodejs /home/nextjs
 USER nextjs
 
 RUN npm install --no-optional
+RUN npx browserslist@latest --update-db
 RUN npx next telemetry disable
 
 COPY . .
