@@ -1,8 +1,8 @@
-FROM node:16.6.2-alpine3.14
+FROM node:16.11.1-alpine3.14
 
 RUN apk add --no-cache libc6-compat
 
-RUN npm i -g npm && npm -v
+RUN npm i -g npm
 
 ENV NODE_ENV production
 ENV PORT 3000
