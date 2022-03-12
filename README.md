@@ -1,9 +1,9 @@
 # NextJS and Docker
 
-- node: v16.6.2
-- npm: 7.20.3
-- rootfs: Alpine 3.14
-- docker: version 20.10.8, build 3967b7d
+- node: v17.7.1
+- npm: 8.5.2
+- rootfs: alpine 3.15
+- docker: 20.10.12, build e91ed57
 
 A note about [alpine and node](https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine) which explains:
 
