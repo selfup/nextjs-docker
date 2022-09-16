@@ -13,8 +13,6 @@ WORKDIR /home/nextjs/app
 COPY package.json .
 COPY package-lock.json .
 
-# RUN chown -R nextjs:nodejs /home/nextjs
-
 RUN npm install --omit=optional
 RUN npx browserslist@latest --update-db
 RUN npx next telemetry disable
