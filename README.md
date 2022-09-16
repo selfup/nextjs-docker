@@ -1,7 +1,7 @@
 # NextJS and Docker
 
-- node: v17.7.1
-- npm: 8.5.2
+- node: v16.17.0
+- npm: 8.19.2
 - rootfs: alpine 3.15
 - docker: 20.10.12, build e91ed57
 
